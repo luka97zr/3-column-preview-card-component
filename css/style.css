@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-size: 15px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F2F2F2;
+  font-family: "Lexend Deca", sans-serif; }
+
+img {
+  padding: 2em 3em;
+  height: 2.5rem;
+  width: 4rem; }
+
+.wrapper_container {
+  color: #fff;
+  position: absolute;
+  display: flex;
+  height: 80%;
+  width: 62%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.u-margin-medium {
+  margin-bottom: 2rem; }
+
+.heading_tertiary {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  font-size: 2.3em;
+  margin-left: 1.6em; }
+
+.container--seddans {
+  background-color: #E38826;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px; }
+
+.container--suv {
+  background-color: #006970; }
+
+.container--luxury {
+  background-color: #004241;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px; }
+
+.paragraph {
+  font-family: "Lexend Deca", sans-serif;
+  width: 60%;
+  padding-left: 3em;
+  line-height: 2em; }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 3em;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  height: 3rem;
+  width: 8.5rem;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 27px; }
+  .btn--sedans {
+    color: #E38826; }
+    .btn--sedans:hover {
+      background-color: #E38826;
+      border: 1px solid #fff;
+      color: #fff; }
+  .btn--suv {
+    color: #006970; }
+    .btn--suv:hover {
+      background-color: #006970;
+      border: 1px solid #fff;
+      color: #fff; }
+  .btn--luxury {
+    color: #004241; }
+    .btn--luxury:hover {
+      background-color: #004241;
+      border: 1px solid #fff;
+      color: #fff; }
+
+@media screen and (max-width: 1200px) {
+  body {
+    height: 100%; }
+  .wrapper_container {
+    width: 80%;
+    height: auto; }
+  .paragraph {
+    height: auto;
+    width: auto; } }
+
+@media screen and (max-width: 800px) {
+  .wrapper_container {
+    flex-direction: column;
+    height: 100vh;
+    width: 80vw; }
+  .paragraph {
+    margin-bottom: 3em; }
+  .u-border-none {
+    border-radius: 0; } }
